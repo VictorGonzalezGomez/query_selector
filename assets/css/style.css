@@ -6,12 +6,31 @@ body{
     height: 100vh;   
 }
 .produc-card{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
     gap: 1rem;
-    border: solid rgb(72, 107, 17);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 5%;
+}
+input {
+    width: 14rem;
+    margin: 0;
+}
+.produc-card button {
+    width: 7rem;
+    background-color: rgb(168, 103, 228);
+    color: white;
+}
+.show-color {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.show-color p {
+   margin: 0;
 }
 .circle {
     width:1rem;

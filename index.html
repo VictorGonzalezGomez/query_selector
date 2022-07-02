@@ -12,17 +12,20 @@
     <img src="" alt="">
     <h2>Laptop Gamer AMD</h2>
     <input type="number" placeholder="Cantidad" id="user-amount">
-    <input type="color" placeholder="Color" id="user-color">
+    <input type="color" placeholder="Color" id="user-color" class="selec-color">
     <select id="price">
       <option value="1000000">$1.000.000</option>
       <option value="500000">$500.000</option>
     </select>
     <button id="get-total">Calcular total</button>
   </section>
-  <section id="totalprice">
+  <section id="totalprice" class="">
     <p>total: $ <span id="total">0</span> </p>
     <p>cantidad: <span id="amount">0</span> </p>
-    <p>color:<div id="coloruser" class="circle"> </div></p>
+    <div class="show-color">
+    <p>color:</p>
+    <div id="coloruser" class="circle"></div>
+    </div>
   </section>
   <script src="assets/js/script.js"></script>
 </body>
